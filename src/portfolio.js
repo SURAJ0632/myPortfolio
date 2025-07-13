@@ -1,20 +1,20 @@
 
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; 
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 
 
 const splashScreen = {
-  enabled: true, 
+  enabled: true,
   animation: splashAnimation,
-  duration: 2000 
+  duration: 2000
 };
 
 
 
 const illustration = {
-  animated: true 
+  animated: true
 };
 
 const greeting = {
@@ -24,8 +24,8 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/180dDHR1koSIbwXyQtQ4X-xXy-6a2n2q8/view?usp=sharing", 
-  displayGreeting: true 
+    "https://drive.google.com/file/d/180dDHR1koSIbwXyQtQ4X-xXy-6a2n2q8/view?usp=sharing",
+  displayGreeting: true
 };
 
 
@@ -36,7 +36,7 @@ const socialMediaLinks = {
   gmail: "thakursuraj7009@gmail.com",
   stackoverflow: "https://stackoverflow.com/users/26583770/suraj-singh",
 
-  display: true 
+  display: true
 };
 
 
@@ -116,7 +116,7 @@ const skillsSection = {
 
 
 const educationInfo = {
-  display: true, 
+  display: true,
   schools: [
     {
       schoolName: "Chandigarh University",
@@ -131,7 +131,7 @@ const educationInfo = {
       subHeader: "Intermediate",
       duration: "April 2019-April 2020",
       desc: "Scored 76%",
-    
+
     }
   ]
 };
@@ -139,11 +139,11 @@ const educationInfo = {
 
 
 const techStack = {
-  viewSkillBars: true, 
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", 
-      progressPercentage: "80%" 
+      Stack: "Frontend/Design",
+      progressPercentage: "80%"
     },
     {
       Stack: "Backend",
@@ -154,27 +154,27 @@ const techStack = {
       progressPercentage: "80%"
     }
   ],
-  displayCodersrank: false 
+  displayCodersrank: false
 };
 
 
 const workExperiences = {
-  display: true, 
+  display: true,
   experience: [
     {
-      role: "Software Developer",
-      company: "Vallabhi Group of Companies",
-      companylogo: require("./assets/images/vallabhi.jpeg"),
-      date: "June 2024 – Present",
-      desc: "I work as a Front-end Developer at Vallabhi Group of Companies, where I've contributed to real-time production-level projects. This experience has allowed me to enhance my skills and stay updated with the latest industry trends.",
-   
+      role: "Associate Software Engineer",
+      company: "Agicent Technologies Private Limited",
+      companylogo: require("./assets/images/Agicent.jpeg"),
+      date: "April 2025 - Present",
+      desc: "Working as a Software Engineer at Agicent Technologies Pvt. Ltd., specializing in building real cross-platform mobile applications using tech stack like React Native, Socket, and Firebase. ",
+
     },
     {
-      role: "Intern",
-      company: "Techbairn",
-      companylogo: require("./assets/images/techb.jpeg"),
-      date: "March 2023-June 2023",
-      desc: "During my internship, I gained valuable skills in both marketing and technology, learning from experienced professionals. This hands-on experience allowed me to develop a strong foundation in these areas, enhancing my ability to contribute effectively in a dynamic environment."
+      role: "Software Developer ",
+      company: "Vallabhi Group Of Companies",
+      companylogo: require("./assets/images/vallabhi.jpeg"),
+      date: "June 2024-March 2025",
+      desc: "I work as a Front-end Developer at Vallabhi Group of Companies, where I've contributed to real-time production-level projects. This experience has allowed me to enhance my skills and stay updated with the latest industry trends."
     },
     {
       role: "Trainee",
@@ -190,7 +190,7 @@ const workExperiences = {
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true 
+  display: true
 };
 
 
@@ -207,19 +207,19 @@ const bigProjects = {
           name: "Visit Project",
           url: "https://www.linkedin.com/posts/suraj-singh-98140a1bb_reactnative-mobileappdevelopment-shoppingapp-activity-7237691814307098624-V2x9?utm_source=share&utm_medium=member_desktop"
         }
-        
+
       ]
     },
     {
-      image: require("./assets/images/yt.jpg"),
-      projectName: "Youtube Clone",
-      projectDesc: "Made a youtube clone using MERN stack, it is basically a clone of youtube that have videos, Shorts, Profile Section. Skills used: React js, Node js , Express Js, CSS",
-      // footerLink: [
-      //   {
-      //     name: "Visit Website",
-      //     url: "http://nextu.se/"
-      //   }
-      // ]
+      image: require("./assets/images/chatApp.jpg"),
+      projectName: "Chatify App",
+      projectDesc: "Developed a real-time web chat application enabling two-user communication using Socket, featuring user authentication (login/signup), chat functionality, profile updates, theme customization, and smooth user experience.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/SURAJ0632/Chat-app"
+        }
+      ]
     },
     {
       image: require("./assets/images/ecrime.jpg"),
@@ -285,7 +285,7 @@ const achievementSection = {
       image: require("./assets/images/internshala.jpg"),
       imageAlt: "Internshala Logo",
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/12PIDbVP7mSAESaKyBzHjA9AVb9QF5NE8/view?usp=sharing"},
+        { name: "Certification", url: "https://drive.google.com/file/d/12PIDbVP7mSAESaKyBzHjA9AVb9QF5NE8/view?usp=sharing" },
         // {
         //   name: "Final Project",
         //   url: "https://drive.google.com/file/d/12PIDbVP7mSAESaKyBzHjA9AVb9QF5NE8/view?usp=sharing"
@@ -302,7 +302,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", 
+  displayMediumBlogs: "true",
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -365,18 +365,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
- 
+
   email_address: "thakursuraj7009@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", 
-  display: false 
+  userName: "twitter",
+  display: false
 };
 
-const isHireable = false; 
+const isHireable = false;
 
 export {
   illustration,
